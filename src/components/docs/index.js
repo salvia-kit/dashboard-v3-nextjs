@@ -29,10 +29,6 @@ export default function Docs() {
         <div className="pl-2">
           <div className="flex mt-4 mb-3">
             <FolderIcon />
-            <span className="pl-2">pages</span>
-          </div>
-          <div className="flex mt-4 mb-3">
-            <FolderIcon />
             <span className="pl-2">public</span>
           </div>
           <div className="flex mt-4 mb-3">
@@ -91,6 +87,10 @@ export default function Docs() {
             <JsIcon />
             <span className="pl-2">main.js</span>
           </div>
+        </div>
+        <div className="flex mt-4 mb-3">
+          <FolderIcon />
+          <span className="pl-2">pages</span>
         </div>
       </section>
 
@@ -242,11 +242,10 @@ export default function Docs() {
         <h2 className="text-2xl font-medium">How it works ?</h2>
         <ul className="pl-6 list-disc mt-4">
           <li className="mb-3">
-            Add your routes in the
+            Add your routes in
             <span className="font-medium px-1">
               dashboard/sidenavigation/data.js
             </span>
-            file
           </li>
           <li className="mb-3">
             If your routes don't exist yet, create your routes in the

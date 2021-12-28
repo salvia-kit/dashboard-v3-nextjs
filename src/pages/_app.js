@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import 'tailwindcss/tailwind.css';
-import DashboardLayout from '../src/dashboard/layout';
-import DashboardProvider from '../src/dashboard/provider/context';
+import DashboardLayout from '../dashboard/layout';
+import DashboardProvider from '../dashboard/provider/context';
 
 function MyApp({ Component, pageProps }) {
   return (
