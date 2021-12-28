@@ -4,7 +4,7 @@ import TopNavigation from './topnavigation';
 import SideNavigation from './sidenavigation';
 import { useToggle } from './provider/context';
 
-/*	w-[calc(100%-16rem)] class get the remain width of the main component from lg:viewport by dividing
+/*	w-[calc(100%-16rem)] class get the remain width of the main component from lg:viewport by subtracting
 (the total width by the width of the side navigation component which is w-64 = 16rem)*/
 
 const style = {
